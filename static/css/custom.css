@@ -1,0 +1,21 @@
+footer {
+  background-color: #141902;
+}
+
+a:hover,
+a:focus,
+a:active,
+.tags a:hover,
+.tags a:focus,
+.tags a:active,
+header a:hover,
+header a:focus,
+header a:active {
+  color: #626f39;
+}
+
+a:hover svg,
+a:focus svg,
+a:active svg {
+  fill: #626f39;
+}

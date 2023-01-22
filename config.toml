@@ -1,0 +1,91 @@
+baseURL = "https://shilin.ca/"
+languageCode = "en-us"
+title = "Sergei Shilin"
+theme = "portfolio"
+copyright="© Sergei Shilin"
+googleAnalytics = ""
+enableEmoji=true
+enableRobotsTXT=true
+pygmentsUseClasses=true
+pygmentsCodeFences=true
+
+[params.intro]
+  main = "Hi, I'm Sergei :wave:"
+  sub = "Software Engineer and Entrepreneur"
+
+[taxonomies]
+  design = "designs"
+  tech = "techs"
+
+[params]
+  breadcrumb = false
+  accentColor = "#626f39"
+  mainSections = ['portfolio'] # values: ['post', 'portfolio'] only accept one section, to be displayed bellow 404
+
+[params.notFound]
+  gopher = "/images/gopher.png" # checkout https://gopherize.me/
+  h1 = 'Bummer!'
+  p = "It seems that this page doesn't exist."
+
+[params.sections]
+  # Define how your sections will be called
+  # when automatically pulled. For instance in the 404 page
+  post = "article"
+  portfolio = "project"
+
+[params.sidebar]
+  backgroundImage = '/images/background.jpg' # header background image - default "/images/default_sidebar.jpg" - Photo by Tim Marshall on Unsplash
+  logo = "/images/logo.jpg"
+
+[params.assets]
+  favicon = "/images/favicon.png"
+  customCSS = "/css/custom.css"
+
+[params.social]
+  github = "https://github.com/sergeyshilin"
+  linkedin = "https://www.linkedin.com/in/sergeyshilin"
+
+[params.contact]
+  email = "mail@shilin.ca"
+  text= "Get in touch!"
+
+
+[menu]
+
+[[menu.main]]
+  identifier = "portfolio"
+  name = "Portfolio"
+  title = "Portfolio"
+  url = "/portfolio/"
+  weight = -120
+
+[[menu.main]]
+  identifier = "ideas"
+  name = "Ideas"
+  title = "Ideas"
+  url = "/ideas/"
+  weight = -110
+
+[[menu.main]]
+  identifier = "photo"
+  name = "Photography"
+  title = "Photography"
+  url = "https://shilin.ca"
+  weight = -100
+
+[[menu.main]]
+  identifier = "writing"
+  name = "Writing"
+  title = "Writing"
+  url = "/writing/"
+  weight = -90
+
+[sitemap]
+  changefreq = "monthly"
+  filename = "sitemap.xml"
+  priority = 0.5
+
+[markup]
+  [markup.goldmark]
+    [markup.goldmark.renderer]
+      unsafe = true

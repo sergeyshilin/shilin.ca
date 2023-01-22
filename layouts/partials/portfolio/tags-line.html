@@ -1,0 +1,22 @@
+{{ partial "svg" (dict "iconName" "calendar" "size" "18px")}}
+<span>{{ .Params.jobDate }}</span>
+
+|
+
+{{ if .Params.projectUrl }}
+    <a target="_blank" href="{{.Params.projectUrl}}">{{ partial "svg" (dict "iconName" "hyperlink" "size" "15px")}}</a>
+{{ end }}
+
+|
+
+{{ if .Params.techs }}
+    {{ partial "svg" (dict "iconName" "tech" "size" "18px")}}
+    <span>
+      {{ range $i, $e := .Params.techs }}
+        {{- with $.Site.GetPage "taxonomyTerm" (printf "techs/%s" ( urlize .)) -}}
+          {{- if $i -}}<span>- </span>{{ end }}
+          <a href="{{ .Permalink }}">{{ .Title }}</a>
+        {{ end }}
+      {{ end }}
+    </span>
+{{ end }}
