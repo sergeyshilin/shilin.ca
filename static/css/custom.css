@@ -19,3 +19,7 @@ a:focus svg,
 a:active svg {
   fill: #626f39;
 }
+
+.portfolio img {
+  box-shadow: none;
+}
