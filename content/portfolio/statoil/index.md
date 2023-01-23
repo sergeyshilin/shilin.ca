@@ -5,7 +5,7 @@ description: Competition to build an algorithm that automatically identifies if 
 date: "2017-05-15T10:40:00-05:00"
 jobDate: 2017
 work: [ML competitions]
-techs: [Python, sklearn]
+techs: [Python, sklearn, pandas, numpy]
 thumbnail: statoil/preview.jpg
 projectUrl: https://www.kaggle.com/competitions/statoil-iceberg-classifier-challenge/
 ---
