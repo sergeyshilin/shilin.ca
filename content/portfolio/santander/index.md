@@ -10,4 +10,5 @@ thumbnail: santander/preview.jpg
 projectUrl: https://www.kaggle.com/competitions/santander-customer-transaction-prediction
 ---
 
-:first_place: Gold medal and 22th place out of 8751 teams
+- :first_place: Gold medal and 22th place out of 8751 teams
+- Source code of our solution can be found on GitHub <a href="https://github.com/sergeyshilin/kaggle-santander-ctp-2019" target="_blank">here</a>
