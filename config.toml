@@ -63,7 +63,7 @@ pygmentsCodeFences=true
   identifier = "ideas"
   name = "Ideas"
   title = "Ideas"
-  url = "/ideas/"
+  url = "https://sshilin.notion.site/Ideas-87e0893af391421da942b37fec62a068"
   weight = -110
 
 [[menu.main]]
