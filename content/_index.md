@@ -9,4 +9,4 @@ While my interests lie in Machine Learning primarily, I consider myself a solid 
 
 Curious about my coding skills? Check out my [GitHub](https://github.com/sergeyshilin) profile. Would like to learn more about my career -- [LinkedIn](https://www.linkedin.com/in/sergeyshilin).
 
-Have a project in mind or just want to say hi? [mail@shilin.ca](mailto:mail@shilin.ca)
+Would like to collaborate or just want to say hi? [mail@shilin.ca](mailto:mail@shilin.ca)
