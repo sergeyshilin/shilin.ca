@@ -11,7 +11,7 @@ pygmentsCodeFences=true
 
 [params.intro]
   main = "Hi, I'm Sergei :wave:"
-  sub = "Software Engineer and Entrepreneur"
+  sub = "CTO, Entrepreneur"
 
 [taxonomies]
   design = "designs"
@@ -65,13 +65,6 @@ pygmentsCodeFences=true
   title = "Ideas"
   url = "https://sshilin.notion.site/Ideas-87e0893af391421da942b37fec62a068"
   weight = -110
-
-[[menu.main]]
-  identifier = "photo"
-  name = "Photography"
-  title = "Photography"
-  url = "https://shilin.photo"
-  weight = -100
 
 [[menu.main]]
   identifier = "writing"
