@@ -1,3 +1,16 @@
+header {
+  min-width: 400px;
+}
+
+header .intro {
+  position: initial;
+}
+
+header .socials {
+  position: relative;
+  min-width: 200px;
+}
+
 footer {
   background-color: #141902;
 }
