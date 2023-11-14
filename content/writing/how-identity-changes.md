@@ -1,5 +1,5 @@
 ---
-title: How identity changes
+title: How Identity Changes
 description: On Thursday I had a first training with my new climbing team, and quickly into the session I observed what entrepreneurs observe regularly, identity change. I was no longer a random guy from the street who does some climbing. I was now a semi-professional climber who trains with the team.
 date: "2023-09-25"
 publishDate: "2023-09-25"

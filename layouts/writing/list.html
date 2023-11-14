@@ -1,12 +1,11 @@
 {{ partial "header" .}}
 
-  <h1 id="title"> {{ .Title }}</h1>
-  {{ .Content }}
+<h1 id="title">{{ .Title }}</h1>
+{{ .Content }}
 
-  <div class="post-list">
-    {{ range .Pages.ByPublishDate.Reverse }}
-      {{ partial "post/item" .}}
-    {{ end }}
-  </div>
+<div class="post-list">
+  {{ range (.Paginator 5).Pages.ByPublishDate.Reverse }} {{ partial "post/item"
+  .}} {{ end }}
+</div>
 
-{{ partial "footer" .}}
+{{ template "_internal/pagination.html" . }} {{ partial "footer" .}}

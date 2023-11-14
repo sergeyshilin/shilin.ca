@@ -36,3 +36,23 @@ a:active svg {
 .portfolio img {
   box-shadow: none;
 }
+
+ul.pagination {
+  display: flex;
+  margin: 20px 0;
+  list-style: none;
+  align-items: center;
+  justify-content: center;
+}
+
+ul.pagination li {
+  margin: 0 10px;
+}
+
+ul.pagination li a {
+  border-bottom: none;
+}
+
+ul.pagination li.active a {
+  border-bottom: 1px #000 solid;
+}
