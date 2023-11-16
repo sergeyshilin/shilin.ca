@@ -7,8 +7,12 @@ header .socials {
   min-width: 200px;
 }
 
-footer {
-  background-color: #0a0704;
+html,
+footer,
+.mobile-header,
+.overlay-menu,
+.overlay-menu header {
+  background-color: #131419 !important;
 }
 
 a:hover,
