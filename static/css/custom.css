@@ -12,7 +12,7 @@ header .socials {
 }
 
 footer {
-  background-color: #141902;
+  background-color: #0a0704;
 }
 
 a:hover,
@@ -24,13 +24,13 @@ a:active,
 header a:hover,
 header a:focus,
 header a:active {
-  color: #626f39;
+  color: #9a5013;
 }
 
 a:hover svg,
 a:focus svg,
 a:active svg {
-  fill: #626f39;
+  fill: #9a5013;
 }
 
 .portfolio img {
