@@ -37,6 +37,10 @@ a:active svg {
   box-shadow: none;
 }
 
+ul li {
+  margin-top: 10px;
+}
+
 ul.pagination {
   display: flex;
   margin: 20px 0;
