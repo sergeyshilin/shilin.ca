@@ -7,7 +7,7 @@ jobDate: 2023
 work: [product design]
 techs: ["React Native", TypeScript, AWS]
 thumbnail: wonderbook/preview.jpg
-projectUrl: https://wonderbookstories.carrd.co/
+projectUrl: https://wonderbook.app
 ---
 
 WonderBook is a story reader app designed to help parents connect with their children through the magic of storytelling.
