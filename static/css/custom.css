@@ -60,3 +60,29 @@ ul.pagination li a {
 ul.pagination li.active a {
   border-bottom: 1px #000 solid;
 }
+
+.image-gallery {
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+  flex-direction: column;
+  gap: 15px;
+}
+
+.image-gallery .column {
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+}
+
+.column img {
+  width: 100%;
+  max-width: 100%;
+  margin: 0 !important;
+}
+
+@media only screen and (min-width: 1160px) {
+  .image-gallery {
+    flex-direction: row;
+  }
+}
