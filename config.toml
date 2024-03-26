@@ -73,13 +73,6 @@ pygmentsCodeFences=true
   url = "/writing/"
   weight = -90
 
-[[menu.main]]
-  identifier = "photography"
-  name = "Photography"
-  title = "Photography"
-  url = "/photography/"
-  weight = -80
-
 [sitemap]
   changefreq = "monthly"
   filename = "sitemap.xml"
